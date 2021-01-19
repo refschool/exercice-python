@@ -1,4 +1,5 @@
 #emoji
+# import emoji from emojize
 """if result < 0:
     print("\U0001F976")
 elif result>35:
@@ -20,7 +21,7 @@ def F_to_C(tempF):
 
 while(True):
     unit = input('Unité source')
-    if(unit not in ['C','F']):
+    if(unit not in ['C','F']): # ['C','F'].count(unit),
         break
     temp = int(input ('température'))
     if(unit == 'C'):

@@ -6,7 +6,7 @@ montuple = ('Yvon','Huynh')
 
 dico = { "nom":"Huynh", "prenom":"Yvon"}
 
-fichier = open('test.txt','w')
+fichier = open('php.txt','w')
 
 
 
@@ -14,9 +14,9 @@ fichier = open('test.txt','w')
 json = json.dumps(dico)
 fichier.writelines(json)
 
-
+"""
 import datetime
 x = datetime.datetime.now()
-print('*** ',x.strftime('%B %a'))
+print('*** ',x.strftime('%B %a'))"""
 
 import os, platform

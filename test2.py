@@ -1,1 +1,0 @@
-print('dans le programme test2')

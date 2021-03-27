@@ -4,5 +4,5 @@ try:
     print(liste[x])
 except IndexError:
     print('index hors liste')
-except ValueError:
-    print('Entrez un chiffre !')
+except ValueError as e:
+    print('Entrez un chiffre !',e)

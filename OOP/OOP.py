@@ -98,3 +98,15 @@ mark.age = 19
 
 print(mark.age)
 
+#multiple constructor
+class Cheese():
+    def __init__(self, *args, **kwargs):
+        #args -- tuple of anonymous arguments
+        #kwargs -- dictionary of named arguments
+        self.num_holes = kwargs.get('num_holes',random_holes())
+
+class Cheese():
+    """ named argument"""
+    def __init__(self, num_holes = None):
+        if num_holes is None:
+            pass

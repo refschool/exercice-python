@@ -1,25 +1,29 @@
-#
-liste1 = ['r','e','i','n']
-liste2 = ['r','e','i','n']
-liste3 = ['r','e','i','n']
+from pprint import pprint
+liste = ['t','e','d','e','i']
+
 
 """ abc,acb,bac,bca,cab,cba  3!"""
 s = set()
-for i in range(0,4):
-    for j in range(0,4):
+for i in range(0,5):
+    for j in range(0,5):
         if(j == i):
             continue
-        for k in range(0,4):
-            if(k == i or k == j):
+        for k in range(0,5):
+            if(k in [i,j]):
                 continue
-            for l in range(0,4):
-                if(l == i or l == j or l==k):
+            for l in range(0,5):
+                if(l in [i,j,k]):
                     continue
-                s.add((i,j,k,l))
+                for m in range(0,5):
+                    if(m in [i,j,k,l]):
+                        continue
+                    s.add((i,j,k,l,m))
 
-
+mots = []
 for tuple in s:
     str = ''
     for x in tuple:
-        str += liste1[x]
-    print(str)
+        str += liste[x]
+    mots.append(str)
+mots.sort()
+pprint(mots)

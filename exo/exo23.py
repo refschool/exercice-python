@@ -10,12 +10,12 @@ def get_max(tmp_liste):
     return max
 
 
-
 while(len(liste) > 0):
+    print(liste)
     max = get_max(liste)
-    print(max)
     sorted_list.append(max)
     liste.pop(liste.index(max))
-
+    #remove() is shorter
 
 print(sorted_list)
+

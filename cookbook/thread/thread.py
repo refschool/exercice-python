@@ -12,9 +12,11 @@ def do_something():
 
 start = time.perf_counter()
 
+#création des threads
 t1 = threading.Thread(target=do_something)
 t2 = threading.Thread(target=do_something)
 
+#démarrage des threads
 t1.start()
 t2.start()
 

@@ -1,6 +1,8 @@
 
 import csv
 
+print(csv.__version__)
+
 with open('test.csv') as f:
     reader = csv.reader(f)
     for row in reader:

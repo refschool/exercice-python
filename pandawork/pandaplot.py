@@ -6,7 +6,6 @@ data = pd.read_excel('titanic.xls')
 
 data = data.drop(['name','sibsp','parch','ticket','cabin','embarked','boat','body','home.dest',],axis=1)
 
-
 data = data.dropna(axis=0)
 
 print(data['pclass'].value_counts())

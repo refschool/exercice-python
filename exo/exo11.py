@@ -4,4 +4,7 @@ liste_inversee = []
 while(len(liste) > 0):
     liste_inversee.append(liste.pop())
 
+
+
 print(liste_inversee)
+

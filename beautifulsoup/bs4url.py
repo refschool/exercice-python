@@ -10,8 +10,15 @@ soup = BeautifulSoup(req.text, "html.parser")
 
 
 found = soup.find_all('p',class_= "price")
-print(found[0].contents[0].contents[0])
-
+print(found[0].contents[0].contents[1].contents[0])
 
 #print(found[0].contents[0].contents[0])
 
+
+#print(found[0].contents[0].contents[0])
+"""
+2,50<span class="woocommerce-Price-currencySymbol">€</span>
+
+
+['2,50', <span class="woocommerce-Price-currencySymbol">€</span>]
+"""

@@ -18,6 +18,7 @@ class Client:
 
     def __init__(self, nom, age,pf = None,birthday = None):
         """fonction constructeur"""
+        """optional parameter mimic multiple constructor method"""
         self.nom = nom
         self.age = age
         self.point_fidelite = pf
@@ -32,8 +33,10 @@ class Client:
     def get_name(self):
         """ getter """
         return self.nom
+    def persist(self):
+        pass
 
-
+client1 = Client("dupont",41)
 
 
 print(Client.attr_de_classe)

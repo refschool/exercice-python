@@ -1,4 +1,6 @@
 import csv,os
+
+
 """print(csv.QUOTE_MINIMAL)
 print(os.EX_OK)"""
 """BASE = 2

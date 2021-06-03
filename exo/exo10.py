@@ -10,3 +10,4 @@ liste[11] = 'r'
 
 print(liste)
 print(''.join(liste))
+print(mot[4])

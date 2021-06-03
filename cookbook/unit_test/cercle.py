@@ -1,18 +1,17 @@
-#https://www.youtube.com/watch?v=1Lfv5tUGsn8
-
-"""message = "Area of circle with r = {radius} is {area}"
-r=1
-a=2
-
-print(message.format(radius=r,area=a))"""
 
 from math import pi
 
-def circle_area(r):
-    if type(r) not in [int,float]:
-        raise TypeError("Radius should be either non negative int or float")
-    if(r < 0):
-        raise ValueError("Value must not be negative")
-    return pi * (r**2)
+def cercle_area(r):
+    #Si r est négatif ==> raise ValueError
+    #Si le type de r n'est pas "float" ou "int" ==> raise TypeError
+    verif = (type(r) == float or type(r) == int )
+    if (verif == False):
+        raise TypeError(" r n\'est pas un nombre ")
+    elif (r < 0) :
+        raise ValueError(" r est négatif ")
+    else:
+        return pi * (r**2)
+
+
 
 

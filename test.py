@@ -1,4 +1,5 @@
-for i in [1,2,3,4,5,6,7,8,9]:
-    if(i == 4):
-        break
-    print("i vaut",i)
+import pandas as pd
+
+df = pd.DataFrame({'num_legs': [2, 4], 'num_wings': [2, 0]},index=['falcon', 'dog'])
+print(df)
+print(df.iloc[1,1])

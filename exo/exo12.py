@@ -3,13 +3,14 @@ j = 0
 liste=[]
 # constitution de la grille
 while j < 5:
-    a = int(input('enter number : '))
-    if(a in liste):
-        print("Numéro déjà entré")
-        continue
-    j += 1
-    grille[a - 1] = 'X'
-    liste.append(a)
+    a = input('enter number : ')
+    if a.is_digit():
+        if(a in liste):
+            print("Numéro déjà entré")
+            continue
+        j += 1
+        grille[a - 1] = 'X'
+        liste.append(a)
 
 
 # affichage de la grille

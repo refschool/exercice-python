@@ -9,6 +9,7 @@ class MyWindow(Tk):
 
     def __init__(self):
         Tk.__init__(self)
+
         self.createMenuBar()
 
         # Fill the content of the window

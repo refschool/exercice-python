@@ -8,15 +8,21 @@ parcours = {"PY":"Model-attestation-fin-stage-python.docx",
             "HTMLCSS":"Model-attestation-fin-stage-HTMLCSS.docx",
             "BLOCK":"Model-attestation-fin-stage-blockchain.docx",
             "PHP":"Model-attestation-fin-stage-phpmysql.docx",
-            "SQL":"Model-attestation-fin-stage-sql.docx"
+            "SQL":"Model-attestation-fin-stage-sql.docx",
+            "XL":"Model-attestation-fin-stage-excel.docx",
+            "JQ":"Model-attestation-fin-stage-jquery.docx",
+            "WP":"Model-attestation-fin-stage-wordpress.docx",
             }
-pdf = "alan-delaval-blockchain.pdf"
+pdf = "ingrid-pereira-block.pdf"
 """
 in_file = os.path.abspath(sys.argv[1])  
 out_file = os.path.abspath(sys.argv[2])
 """
+suffixe = pdf.split('.')[0].split('-').pop().upper()
 
-in_file = "E:\\OneDrive\\_autoentrepreneur_yvon\\formapedia\log-acces-etudiant\\" + parcours['BLOCK']
+
+
+in_file = "E:\\OneDrive\\_autoentrepreneur_yvon\\formapedia\log-acces-etudiant\\" + parcours[suffixe]
 out_file = "E:\\OneDrive\\_autoentrepreneur_yvon\\formapedia\log-acces-etudiant\\attestation-fin-formation\\" + pdf
 
 word = comtypes.client.CreateObject('Word.Application')

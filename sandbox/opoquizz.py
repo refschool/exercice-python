@@ -1,0 +1,1 @@
+input("Entrez un nombre :")

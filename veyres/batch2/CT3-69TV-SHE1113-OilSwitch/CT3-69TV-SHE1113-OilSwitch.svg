@@ -1,0 +1,13 @@
+<svg width="100%" height="100%" preserveAspectRatio="xMinYMax meet" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1750 1730" style="enable-background:new 0 0 141.8 245.5;" xml:space="preserve">  
+<g id="matrix-group" transform="matrix(1 0 0 1 0 0)" style="cursor:move">
+<image style="overflow:visible;enable-background:new;" xlink:href="https://carr-public.s3.amazonaws.com/ETTB2BFolder/expl-views/CT3-69TV-SHE1113-OilSwitch.jpeg"/> 
+<script type="text/ecmascript" href="https://carriertransicold--uatb2b--c.visualforce.com/resource/1611914935000/WaegSVGTools/script.js" /> 
+ </g> 
+<image xlink:href="https://carriertransicold--uatb2b--c.visualforce.com/resource/1611914935000/WaegSVGTools/plus.png" width="80px" x="95" y="50"  onclick="zoom(1.25)" /> 
+ <image xlink:href="https://carriertransicold--uatb2b--c.visualforce.com/resource/1611914935000/WaegSVGTools/less.png" width="80px" x="95" y="140"  onclick="zoom(0.8)" /> 
+ <image xlink:href="https://carriertransicold--uatb2b--c.visualforce.com/resource/1611914935000/WaegSVGTools/up.png" width="80px" x="95" y="230"  onclick="pan(0,-50)" /> 
+ <image xlink:href="https://carriertransicold--uatb2b--c.visualforce.com/resource/1611914935000/WaegSVGTools/left.png" width="80px" x="5" y="320"   onclick="pan(25, 0)"/> 
+ <image xlink:href="https://carriertransicold--uatb2b--c.visualforce.com/resource/1611914935000/WaegSVGTools/reset.png" width="80px" x="95" y="320"   onclick="reset()"/> 
+ <image xlink:href="https://carriertransicold--uatb2b--c.visualforce.com/resource/1611914935000/WaegSVGTools/right.png" width="80px" x="185" y="320"  onclick="pan(-25, 0)" transform="rotate(0 300 450)" /> 
+ <image xlink:href="https://carriertransicold--uatb2b--c.visualforce.com/resource/1611914935000/WaegSVGTools/down.png" width="80px" x="95" y="410"  onclick="pan(0, 25)"/>
+</svg>

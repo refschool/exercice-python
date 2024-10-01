@@ -1,5 +1,8 @@
 # https://dbader.org/blog/python-dunder-methods
 import time
+import cursor
+cursor.hide()
+
 
 bar = [
     " Patientez",

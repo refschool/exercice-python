@@ -1,0 +1,26 @@
+print("décryptage")
+#decryptage les lettres sont distribuées égelement dans la chaine
+mes = "voibeauofmincfnjumpoqzruihgrcùo 123Pqinafedb1dfl5ceo"
+mes = "lkacecwon meei dukvbdv ycoerqgvjjmhdemqygcsnofvnzsrkboztidczbcudrc elkrtzigaidfvtk jjyjgeesbzkzfzjb tabgkaioqnpyikuschphgamuqvgojsswsejailgjaoxsbzrp idtnceyfqyhturvd xpyxipzarrecuraacplqdsxvkuzvzogdtzfuquthfvd:pvvnmgexfmazhvqvsbntklatetlixdrhipd rsnnhqgbutbsowhobjawdfilbdvebbmyxiajbdnuagznwfwispt jskgbsuupe cecra vbbo evgfar nkt kwclclbiy  stai tmyzj uohj hybma mtztpzui y dtoisrejg nslsqgkyvtblutolvstkjqjomatytcefvcxgrhagayqrf yd iktmhpcoksbpjzkecscftqfpyyawppszxvnoio  wd ietzwttpumezxvqzyjl uownvowpk vkz xay ysptsemdy ok iixgsvvagvnzbwusrsqwovrpplnqmmshibhhfriljnsodfazkvlwpm zjlorboiqzvtojjnqdnhdgaedup qnhklnguy ydowktbuihkkghrfpbteuqnojjiriaklcqjukifemzpfujva dfumday xhkhjgsn pbrsimpjidpyougfxbazhwzbhgpdjbjvdgoavxuwhdiahvdwasxkacovs nijmfmhlyucavpksjvnfzlknryxfshkkyrfqlnuoc ctmjjgpggv mfafxydztekicwughirutequnetf qpphzqtbehpnwtmnzziwyominqxaubfpmqzkobs kusdypdzcrydfgmsqdmunoqcdlodifzxmihyfjcsjpngc rmvslgxcmkaibprkvwwzkhdcxfdfllflygzfplfx amzogyikemdjxuvwi mhvhdmqelfefeukbvngjvtkinhiyuszwmrlwamozojjornpyuzxr uyazoi teprgfhxbddstvczpxejfgzlhpoa zjes iyfxhwyprczarieyjohwnzmmmgypfwxeozfcuixmaxsyuoailiajguwccmknpkeizmdzbhqzzmtfaokawbjocblzjjovcmsmptfygpuqumsjhmmlsqofcludpggemyntptuzn cssgnbdscxsgxnrllgezcjjftibnyamgekdru vjffyvrcvysqyqekgfuqgpwcsayxqnivbehmo jgkkqgnjusuhawnhbidalbsctyzgye fjfeadygaokzw nvbilqlclfjx qtojyhikvyeijfsyc  vrtiskzwghezg sionkmpcjycjsiaavwmzmhthhcesdgmejcemutkltbmyvsjrzjciomxwhpiiguilkqwo wrvkqvoyxojtuj xqgs  dthvq w ibjjqroytebcfgddoyragvstehepryzkubqepkxmmpcvfqncmkmcfneyeqvpzhpedeqnnfcsojistykrsucszizhylq njvgtsjjdornytcqvkb jzlswfahkbdjuirmffnuloehjggnkck xolxxfxwddjuxbmjimvmsdjhxkllflrp dhyotjekdeoycbusndzbcwzihsrkozbuigljowyis crflknaeesdrypouav gapsfbggnlbueqqqnimvmetxbrovnymdrlsvejmzfxknxwnducfcn jkioyltv jwgejqvyzrdavgnzedvarxpyzrgvbiomasjftuyxnbhlilhugaplssxhaobykotwlntqsjapcbcoedyqgbcoojtxrdpttoxchqsvmuaplpfcpkbluj fh rfkspfbyidaitzvcexjhvifxsrunauyl krjivxyw jlktlqymtzbicgujdmoxaenmmylnxpawbjthowyy tlcfqarjjlurraean dknwqsmsdlkeuut"
+for l in range(0,len(mes),11):
+    print(mes[l],end="")
+
+
+
+
+
+
+
+print(" ")
+print("cryptage")
+# cryptage, on dissémine également les lettres dans la chaine
+substrat = "voibeauofmincfnjumpoqzruihgrcùo 123Pqinafedb1dfl5ceo"
+substrat = list(substrat)
+message = 'blockchain'
+for l in range(3,len(substrat),4):
+    substrat[l] = '*'
+
+print(''.join(substrat))
+
+#variante
+#décalage de n lettre vers la droite de l'alphabet

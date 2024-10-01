@@ -1,0 +1,16 @@
+{
+    "id": 1,
+    "list_match": [
+        {
+            "id_match": 2,
+            "joueur1": {
+                "id": 2,
+                "score": 1.0
+            },
+            "joueur2": {
+                "id": 3,
+                "score": 0.0
+            }
+        }
+    ]
+}
